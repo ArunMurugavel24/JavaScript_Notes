@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  top: calc(100vh - 65%);
+  left: calc(100vh - 10%);;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  width: 100%;
+}
+
+.title {
+  font-size: 45px;
+  padding: 10px;
+}
+
+.counter {
+  font-size: 60px;
+  padding-bottom: 5px;
+}
+
+.followers {
+  color: gray;
+  font-size: 15px;
+}
